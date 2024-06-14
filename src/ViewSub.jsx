@@ -17,7 +17,7 @@ const ViewSub = () => {
 
     const fetchEntries = async () => {
         try {
-          const res = await fetch(`https://d5ttvtw2-3000.inc1.devtunnels.ms/getbyuser?username=${username}`);
+          const res = await fetch(`https://tufbackend-jk4j67jeg-dhyey2075s-projects.vercel.app/getbyuser?username=${username}`);
           const data = await res.json();
           
           // Log the data to debug

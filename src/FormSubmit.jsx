@@ -26,7 +26,7 @@ const Home = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setIsSubmitting(true);
-        const res = await fetch('https://d5ttvtw2-3000.inc1.devtunnels.ms/submit', {
+        const res = await fetch('https://tufbackend-jk4j67jeg-dhyey2075s-projects.vercel.app/submit', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
